@@ -5,7 +5,7 @@ This docker image provides gitleaks for use in CI.
 ## 🦊 Use in GitLab CI
 
 ```
-pre-commit:
+gitleaks:
   stage: test
   image: ghcr.io/wegift/gitleaks:<version>
   script:
